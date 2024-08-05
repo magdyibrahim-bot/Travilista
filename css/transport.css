@@ -1,0 +1,18 @@
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+h5 {
+    color: white;
+}
+
+#display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search {
+    display: flex;
+
+}

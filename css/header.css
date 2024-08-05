@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #c0913d;
+    --primary-color-dark: #97660e;
+    --secondary-color: #ffffff;
+    --text-color: #333333;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --swiper-pagination-color: #cc9933;
+}
+
+* {
+    font-family:'Handvetica Neue Regular';
+    
+}
+
+nav {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav__links {
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.link a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: var(--primary-color);
+}
+
+.link #nav__btn {
+    padding: 0.5rem 2rem;
+    color: white !important;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.link #nav__btn:hover {
+    background-color: var(--primary-color-dark);
+}
